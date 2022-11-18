@@ -1,0 +1,22 @@
+{
+  "name": "anchor-tsmodel-transpiler",
+  "version": "1.0.0",
+  "description": "an Anchor Framework to Typescript models transpiler.",
+  "main": "core/main.ts",
+  "repository": "https://github.com/cdhiraj40/anchor-tsmodel-transpiler",
+  "author": {
+    "name": "Dhiraj Chauhan",
+    "email": "chauhandhiraj40@gmaol.com",
+    "url": "https://cdhiraj40.dev"
+  },
+  "license": "MIT",
+    "scripts": {
+      "setup": "sudo sh start.sh",
+      "start": "ts-node core/main.ts && prettier --write demo.ts"
+    },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  }
+}

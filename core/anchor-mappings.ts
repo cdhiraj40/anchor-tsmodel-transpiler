@@ -1,0 +1,17 @@
+export enum AnchorTypes {
+    bool = "boolean",
+    u8 = "number",
+    i8 = "number",
+    u16 = "number",
+    i16 = "number",
+    u32 = "number",
+    i32 = "number",
+    f32 = "number",
+    u64 = "number",
+    i64 = "number",
+    f64 = "number",
+    u128 = "BigNumber",
+    i128 = "BigNumber",
+    string = "String",
+    publicKey = "PublicKey",
+}
