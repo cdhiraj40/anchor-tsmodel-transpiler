@@ -18,8 +18,16 @@ yarn install
 ```
 
 - Add your anchor IDL json file by replacing the current [idl.json](idl.json).
+
+- Run `yarn setup` to generate the file. This step is only required first time.
 ``` 
-yarn install
+yarn setup
+```
+
+
+- Run `yarn start` and get the models right away :rocket: 
+``` 
+yarn start
 ```
 
 ## Future
